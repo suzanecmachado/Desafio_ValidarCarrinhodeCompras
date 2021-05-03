@@ -1,0 +1,131 @@
+[
+  {
+    "uri": "features/support/carrinho_compras.feature",
+    "id": "validar-produto-no-carrinho-de-compras",
+    "keyword": "Funcionalidade",
+    "name": "Validar produto no carrinho de compras",
+    "description": "   Sendo um usuário do site amazon\n   Quero pesquisar um produto e adicionar ao carrinho de compras\n   Para que eu possa validar que o produto dentro do carrinho seja o que escolhi",
+    "line": 4,
+    "comments": [
+      {
+        "value": "#encode: UTF-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "validar-produto-no-carrinho-de-compras;validar-produto-no-carrinho",
+        "keyword": "Cenario",
+        "name": "Validar produto no carrinho",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@validar_carrinho",
+            "line": 9
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33583
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25961
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1875631227
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu acesso o site da amazon",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_carrinho_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2842356883
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "pesquiso pelo produto \"The mandalorian quebra cabeça\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/step_carrinho_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1733464850
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "escolho e adiciono o produto no carrinho",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/step_carrinho_compras.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6410224906
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver no carrinho o produto \"The Mandalorian - Quebra-cabeça 500 peças, Toyster Brinquedos - Exclusivo Amazon\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/step_carrinho_compras.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353487011
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34945
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106394136
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
