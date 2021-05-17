@@ -1,6 +1,6 @@
 [
   {
-    "uri": "features/support/carrinho_compras.feature",
+    "uri": "features/support/teste_version2.feature",
     "id": "validar-produto-no-carrinho-de-compras",
     "keyword": "Funcionalidade",
     "name": "Validar produto no carrinho de compras",
@@ -22,7 +22,7 @@
         "type": "scenario",
         "tags": [
           {
-            "name": "@validar_carrinho",
+            "name": "@teste_02",
             "line": 9
           }
         ],
@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33583
+              "duration": 29421
             }
           },
           {
@@ -42,7 +42,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25961
+              "duration": 24413
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1875631227
+              "duration": 1983497481
             }
           }
         ],
@@ -61,47 +61,59 @@
             "name": "que eu acesso o site da amazon",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/step_carrinho_compras.rb:1"
+              "location": "features/step_definitions/step_carrinho_version2.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 2842356883
+              "duration": 2348920339
             }
           },
           {
             "keyword": "E ",
-            "name": "pesquiso pelo produto \"The mandalorian quebra cabeça\"",
+            "name": "pesquiso pelo produto \"quebra_cabeça\"",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/step_carrinho_compras.rb:5"
+              "location": "features/step_definitions/step_carrinho_version2.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1733464850
+              "duration": 1614973865
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolho o produto \"quebra_cabeça\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/step_carrinho_version2.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2711295629
             }
           },
           {
             "keyword": "Quando ",
-            "name": "escolho e adiciono o produto no carrinho",
-            "line": 13,
+            "name": "adiciono o produto no carrinho",
+            "line": 14,
             "match": {
-              "location": "features/step_definitions/step_carrinho_compras.rb:10"
+              "location": "features/step_definitions/step_carrinho_version2.rb:13"
             },
             "result": {
               "status": "passed",
-              "duration": 6410224906
+              "duration": 3426372625
             }
           },
           {
             "keyword": "Então ",
-            "name": "devo ver no carrinho o produto \"The Mandalorian - Quebra-cabeça 500 peças, Toyster Brinquedos - Exclusivo Amazon\"",
-            "line": 14,
+            "name": "devo ver no carrinho o produto \"quebra_cabeça\"",
+            "line": 15,
             "match": {
-              "location": "features/step_definitions/step_carrinho_compras.rb:18"
+              "location": "features/step_definitions/step_carrinho_version2.rb:20"
             },
             "result": {
               "status": "passed",
-              "duration": 353487011
+              "duration": 272413419
             }
           }
         ],
@@ -112,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34945
+              "duration": 38521
             }
           },
           {
@@ -121,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 106394136
+              "duration": 73699639
             }
           }
         ]
