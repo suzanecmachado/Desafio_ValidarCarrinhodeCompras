@@ -1,5 +1,5 @@
 ## Desafio Automação-  Carrinho de Compras site da Amazon
-<h4 align="center"> 🚧 🚀 Concluído... 🚧 </h4>
+<h4 align="center"> 🚧 Em construção 🚧 </h4>
 
 ### 📋 Sobre o teste
 O cenário:
@@ -27,6 +27,15 @@ As seguintes ferramentas foram usadas no teste:
 🟪 Cucumber 3.1.2
 
 🟪 VScode
+
+🟪 S.O utilizado: Linux
+
+
+Para instalar o Ruby, digite no terminal: sudo apt install ruby
+
+Para instalação do Cucumber, digite no terminal: sudo apt install cucumber
+
+Para rosar o teste, abra a pasta UI no VScode e digite no terminal: cucumber -@teste_02
 
 ### 🙋‍♀️ Autor
 [Suzane Campos Machado](https://www.linkedin.com/in/suzanemachado/)
