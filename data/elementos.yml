@@ -1,0 +1,7 @@
+campo_digite_texto: input[id='twotabsearchtextbox']
+nome_produto_pesquisa: span[class= "a-size-base-plus a-color-base a-text-normal"]
+btn_adicionar_carrinho: input[id="add-to-cart-button"]
+btn_carrinho: a[id='hlb-view-cart-announce']
+nome_do_produto_carrinho: span[class='a-size-medium sc-product-title a-text-bold']
+
+
