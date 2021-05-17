@@ -33,9 +33,9 @@ As seguintes ferramentas foram usadas no teste:
 
 Para instalar o Ruby, digite no terminal: sudo apt install ruby
 
-Para instalação do Cucumber, digite no terminal: sudo apt install cucumber
+Para instalar o Cucumber, digite no terminal: sudo apt install cucumber
 
-Para rosar o teste, abra a pasta UI no VScode e digite no terminal: cucumber -@teste_02
+Para rodar o teste, abra a pasta do projeto no VScode e digite no terminal: cucumber -@teste_02
 
 ### 🙋‍♀️ Autor
 [Suzane Campos Machado](https://www.linkedin.com/in/suzanemachado/)
